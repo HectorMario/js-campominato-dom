@@ -1,0 +1,42 @@
+
+div.container-fluid.ms-color{
+    background-color: brown;
+    height: 100vh;
+    position: relative;
+}
+
+div.container.ms-color{
+    background-color: rgb(155, 155, 196);
+    height: 80vh;
+}
+
+div.container-fluid.ms-heigth{
+    height: 100px;
+    background-color: #fff;
+}
+
+div.ms-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+}
+
+div.easy{
+    width: calc(100% / 10);
+}
+
+div.medium{
+    width: calc(100% / 9);
+}
+div.hard{
+    width: calc(100% / 7);
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
